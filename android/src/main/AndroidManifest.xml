@@ -1,3 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="kg.flashpay.flutterplugin">
+  package="com.flashpay.flutterplugin">
 </manifest>

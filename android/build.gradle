@@ -1,4 +1,4 @@
-group 'kg.flashpay.flutterplugin'
+group 'com.flashpay.flutterplugin'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -27,7 +27,7 @@ apply plugin: 'org.jetbrains.kotlin.plugin.serialization'
 
 android {
     compileSdkVersion 34
-    namespace "kg.flashpay.flutterplugin"
+    namespace "com.flashpay.flutterplugin"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -66,7 +66,7 @@ android {
 }
 
 dependencies {
-    implementation "kg.flashpay:msdk-ui:3.6.0"
-    implementation "kg.flashpay:msdk-core-android:0.11.2"
+    implementation "com.flashpay:msdk-ui:3.6.0"
+    implementation "com.flashpay:msdk-core-android:0.11.2"
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.1"
 }

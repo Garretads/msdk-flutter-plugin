@@ -1,7 +1,7 @@
 name: flashpay_flutter_plugin
 description: Flutter plugin of Mobile SDK UI is a software development kit that can be used to integrate Android applications with the Flashpay payment platform.
 version: 1.0.4
-homepage: https://github.com/ITFLASHPAY/msdk-flutter-plugin
+homepage: https://github.com/flashpaykg/msdk-flutter-plugin
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
@@ -38,7 +38,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: kg.flashpay.flutterplugin
+        package: com.flashpay.flutterplugin
         pluginClass: EcmpPlugin
       ios:
         pluginClass: EcmpPlugin

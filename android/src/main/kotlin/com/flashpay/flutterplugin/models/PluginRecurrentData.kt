@@ -1,4 +1,4 @@
-package kg.flashpay.flutterplugin.models
+package com.flashpay.flutterplugin.models
 
 import kotlinx.serialization.Serializable
 
