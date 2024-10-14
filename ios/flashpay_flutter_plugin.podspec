@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A new Flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/itflashpay'
+  s.homepage         = 'https://github.com/flashpaykg'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Flashpay' => 'a.khrameev@it.flashpay.kg' }
+  s.author           = { 'Flashpay' => 'a.khrameev@flashpay.kg' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

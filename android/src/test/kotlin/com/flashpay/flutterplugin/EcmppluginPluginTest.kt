@@ -1,4 +1,4 @@
-package kg.flashpay.flutterplugin
+package com.flashpay.flutterplugin
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

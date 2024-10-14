@@ -1,4 +1,4 @@
-package kg.flashpay.flutterplugin_example
+package com.flashpay.flutterplugin_example
 
 import io.flutter.embedding.android.FlutterActivity
 
