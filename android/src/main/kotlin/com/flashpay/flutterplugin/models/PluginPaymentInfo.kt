@@ -1,6 +1,6 @@
 package com.flashpay.flutterplugin.models
 
-import com.flashpay.msdk.ui.EcmpPaymentInfo
+import io.github.flashpaykg.msdk.ui.EcmpPaymentInfo
 import kotlinx.serialization.Serializable
 
 @Serializable
