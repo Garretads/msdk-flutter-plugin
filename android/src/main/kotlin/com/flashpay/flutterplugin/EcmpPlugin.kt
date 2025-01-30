@@ -35,8 +35,8 @@ class EcmpPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
     /// This local reference serves to register the plugin with the Flutter Engine and unregister it
     /// when the Flutter Engine is detached from the Activity
     private lateinit var channel: MethodChannel
-    private var activityReference = WeakReference<Activity>(null)
-    private var contextReference = WeakReference<Context>(null)
+    private var activityReference:Activity? = null
+    private var contextReference: Context? = null
     private var result: Result? = null
     private val serializer = Json {
         isLenient = true
@@ -49,28 +49,30 @@ class EcmpPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
         channel = MethodChannel(flutterPluginBinding.binaryMessenger, "ecmpplugin")
         channel.setMethodCallHandler(this)
-        contextReference = WeakReference(flutterPluginBinding.applicationContext)
+        contextReference = flutterPluginBinding.applicationContext
     }
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
-        activityReference = WeakReference(binding.activity)
+        println("onAttachedToActivity")
+        activityReference = binding.activity
         binding.addActivityResultListener(this)
     }
 
     override fun onDetachedFromActivityForConfigChanges() {
-        activityReference.clear()
+        activityReference = null
     }
 
     override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
-        activityReference = WeakReference(binding.activity)
+        activityReference = binding.activity
         binding.addActivityResultListener(this)
     }
 
     override fun onDetachedFromActivity() {
-        activityReference.clear()
+        activityReference = null
     }
 
     override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
+        println(call.method)
         val json = call.arguments as String
         if (call.method == "sdkRun" && json.isNotEmpty()) {
             sdkRun(json = json, result = result)
@@ -156,7 +158,7 @@ class EcmpPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
             isDarkTheme = pluginPaymentOptions.isDarkTheme
         }
 
-        contextReference.get()?.let { context ->
+        contextReference?.let { context ->
             //4. Create sdk object
             val sdk = EcmpPaymentSDK(
                 context = context,
@@ -164,7 +166,7 @@ class EcmpPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
                 mockModeType = EcmpPaymentSDK.EcmpMockModeType.valueOf(pluginPaymentOptions.mockModeType.name)
             )
             this.result = result
-            activityReference.get()?.startActivityForResult(sdk.intent, 100)
+            activityReference?.startActivityForResult(sdk.intent, 100)
         }
     }
 

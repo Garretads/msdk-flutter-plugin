@@ -4,6 +4,7 @@ version '1.0-SNAPSHOT'
 buildscript {
     ext.kotlin_version = '1.9.0'
     repositories {
+        mavenLocal()
         google()
         mavenCentral()
     }
@@ -16,6 +17,7 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenLocal()
         google()
         mavenCentral()
     }
@@ -30,12 +32,13 @@ android {
     namespace "com.flashpay.flutterplugin"
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
     sourceSets {
@@ -66,7 +69,9 @@ android {
 }
 
 dependencies {
-    implementation "io.github.flashpaykg:msdk-ui:3.6.4"
-    implementation "io.github.flashpaykg:msdk-core:0.12.1"
+    implementation "kg.flashpay:msdk-ui:3.7.2"
+    implementation "kg.flashpay:msdk-core-android:0.12.3"
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.1"
+
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.1.3"
 }

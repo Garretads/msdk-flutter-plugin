@@ -1,0 +1,448 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name flashpaySDK
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import PassKit
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _PassKit_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import flashpaySDK
+@objc @objcMembers final public class RecipientInfo : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public var walletId: Swift.String?
+  @objc final public var walletOwner: Swift.String?
+  @objc final public var pan: Swift.String?
+  @objc final public var cardHolder: Swift.String?
+  @objc final public var country: Swift.String?
+  @objc final public var stateCode: Swift.String?
+  @objc final public var city: Swift.String?
+  @objc final public var address: Swift.String?
+  @objc(initWithWalletId:walletOwner:pan:cardHolder:country:stateCode:city:address:) public init(walletId: Swift.String? = nil, walletOwner: Swift.String? = nil, pan: Swift.String? = nil, cardHolder: Swift.String? = nil, country: Swift.String? = nil, stateCode: Swift.String? = nil, city: Swift.String? = nil, address: Swift.String? = nil)
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc public enum ScreenDisplayMode : Swift.Int {
+  case hideSuccessFinalPage = 1
+  case hideDeclineFinalPage = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class PaymentResult : ObjectiveC.NSObject {
+  @objc final public let status: flashpaySDK.PaymentStatus
+  @objc final public let error: flashpaySDK.PaymentError?
+  @objc final public let payment: flashpaySDK.Payment?
+  @objc deinit
+}
+@objc public enum PaymentStatus : Swift.Int {
+  case Success = 0
+  case Decline = 100
+  case Cancelled = 200
+  case Error = 500
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class PaymentError : ObjectiveC.NSObject {
+  @objc public var codeString: Swift.String {
+    @objc get
+  }
+  @objc public var code: flashpaySDK.PaymentErrorCode {
+    @objc get
+  }
+  @objc public var message: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public enum PaymentErrorCode : Swift.Int {
+  case serverUnauthorized
+  case serverMethodNotFound
+  case serverApiError
+  case serverContentParsingError
+  case networkError
+  case networkIsNotAvailable
+  case networkTimeout
+  case paymentRequestTypeNotExist
+  case paymentMethodNotAvailable
+  case paymentAlreadyExist
+  case paymentHasFinalStatus
+  case paymentNotFound
+  case paymentTokenNotExist
+  case customerIdNotExist
+  case clarificationFieldsError
+  case sessionNotInitialized
+  case illegalArguments
+  case illegalState
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class ThreeDSecureInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(threeDSecurePaymentInfo: flashpaySDK.ThreeDSecurePaymentInfo? = nil, threeDSecureCustomerInfo: flashpaySDK.ThreeDSecureCustomerInfo? = nil)
+  public var threeDSecurePaymentInfo: flashpaySDK.ThreeDSecurePaymentInfo?
+  public var threeDSecureCustomerInfo: flashpaySDK.ThreeDSecureCustomerInfo?
+  @objc(setThreeDSecurePaymentInfo:) public func setThreeDSecurePaymentInfo(threeDSecurePaymentInfo: flashpaySDK.ThreeDSecurePaymentInfo)
+  @objc(setThreeDSecureCustomerInfo:) public func setThreeDSecureCustomerInfo(threeDSecureCustomerInfo: flashpaySDK.ThreeDSecureCustomerInfo)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ThreeDSecurePaymentInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(reorder: Swift.String? = nil, preorderPurchase: Swift.String? = nil, preorderDate: Swift.String? = nil, challengeIndicator: Swift.String? = nil, challengeWindow: Swift.String? = nil, giftCard: flashpaySDK.ThreeDSecureGiftCardInfo? = nil)
+  public var reorder: Swift.String?
+  public var preorderPurchase: Swift.String?
+  public var preorderDate: Swift.String?
+  public var challengeIndicator: Swift.String?
+  public var challengeWindow: Swift.String?
+  public var giftCard: flashpaySDK.ThreeDSecureGiftCardInfo?
+  @objc(setReorder:) public func setReorder(reorder: Swift.String)
+  @objc(setPreorderPurchase:) public func setPreorderPurchase(preorderPurchase: Swift.String)
+  @objc(setPreorderDate:) public func setPreorderDate(preorderDate: Swift.String)
+  @objc(setChallengeIndicator:) public func setChallengeIndicator(challengeIndicator: Swift.String)
+  @objc(setChallengeWindow:) public func setChallengeWindow(challengeWindow: Swift.String)
+  @objc(setGiftCard:) public func setGiftCard(giftCard: flashpaySDK.ThreeDSecureGiftCardInfo)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ThreeDSecureGiftCardInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(amount: Swift.Int? = nil, currency: Swift.String? = nil, count: Swift.Int? = nil)
+  public var amount: Swift.Int?
+  public var currency: Swift.String?
+  public var count: Swift.Int?
+  @objc(setAmount:) public func setAmount(amount: Swift.Int)
+  @objc(setCurrency:) public func setCurrency(currency: Swift.String)
+  @objc(setCount:) public func setCount(count: Swift.Int)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ThreeDSecureCustomerInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(addressMatch: Swift.String? = nil, homePhone: Swift.String? = nil, workPhone: Swift.String? = nil, billingRegionCode: Swift.String? = nil, accountInfo: flashpaySDK.ThreeDSecureAccountInfo? = nil, shippingInfo: flashpaySDK.ThreeDSecureShippingInfo? = nil, mpiResultInfo: flashpaySDK.ThreeDSecureMpiResultInfo? = nil)
+  public var addressMatch: Swift.String?
+  public var homePhone: Swift.String?
+  public var workPhone: Swift.String?
+  public var billingRegionCode: Swift.String?
+  public var accountInfo: flashpaySDK.ThreeDSecureAccountInfo?
+  public var shippingInfo: flashpaySDK.ThreeDSecureShippingInfo?
+  public var mpiResultInfo: flashpaySDK.ThreeDSecureMpiResultInfo?
+  @objc(setAddressMatch:) public func setAddressMatch(addressMatch: Swift.String)
+  @objc(setHomePhone:) public func setHomePhone(homePhone: Swift.String)
+  @objc(setWorkPhone:) public func setWorkPhone(workPhone: Swift.String)
+  @objc(setBillingRegionCode:) public func setBillingRegionCode(billingRegionCode: Swift.String)
+  @objc(setAccountInfo:) public func setAccountInfo(accountInfo: flashpaySDK.ThreeDSecureAccountInfo)
+  @objc(setShippingInfo:) public func setShippingInfo(shippingInfo: flashpaySDK.ThreeDSecureShippingInfo)
+  @objc(setMpiResultInfo:) public func setMpiResultInfo(mpiResultInfo: flashpaySDK.ThreeDSecureMpiResultInfo)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ThreeDSecureAccountInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(additional: Swift.String? = nil, ageIndicator: Swift.String? = nil, date: Swift.String? = nil, changeIndicator: Swift.String? = nil, changeDate: Swift.String? = nil, passChangeIndicator: Swift.String? = nil, passChangeDate: Swift.String? = nil, purchaseNumber: Swift.Int? = nil, provisionAttempts: Swift.Int? = nil, activityDay: Swift.Int? = nil, activityYear: Swift.Int? = nil, paymentAgeIndicator: Swift.String? = nil, paymentAge: Swift.String? = nil, suspiciousActivity: Swift.String? = nil, authMethod: Swift.String? = nil, authTime: Swift.String? = nil, authData: Swift.String? = nil)
+  public var additional: Swift.String?
+  public var ageIndicator: Swift.String?
+  public var date: Swift.String?
+  public var changeIndicator: Swift.String?
+  public var changeDate: Swift.String?
+  public var passChangeIndicator: Swift.String?
+  public var passChangeDate: Swift.String?
+  public var purchaseNumber: Swift.Int?
+  public var provisionAttempts: Swift.Int?
+  public var activityDay: Swift.Int?
+  public var activityYear: Swift.Int?
+  public var paymentAgeIndicator: Swift.String?
+  public var paymentAge: Swift.String?
+  public var suspiciousActivity: Swift.String?
+  public var authMethod: Swift.String?
+  public var authTime: Swift.String?
+  public var authData: Swift.String?
+  @objc(setAdditional:) public func setAdditional(additional: Swift.String)
+  @objc(setAgeIndicator:) public func setAgeIndicator(ageIndicator: Swift.String)
+  @objc(setDate:) public func setDate(date: Swift.String)
+  @objc(setChangeIndicator:) public func setChangeIndicator(changeIndicator: Swift.String)
+  @objc(setChangeDate:) public func setChangeDate(changeDate: Swift.String)
+  @objc(setPassChangeIndicator:) public func setPassChangeIndicator(passChangeIndicator: Swift.String)
+  @objc(setPassChangeDate:) public func setPassChangeDate(passChangeDate: Swift.String)
+  @objc(setPurchaseNumber:) public func setPurchaseNumber(purchaseNumber: Swift.Int)
+  @objc(setProvisionAttempts:) public func setProvisionAttempts(provisionAttempts: Swift.Int)
+  @objc(setActivityDay:) public func setActivityDay(activityDay: Swift.Int)
+  @objc(setActivityYear:) public func setActivityYear(activityYear: Swift.Int)
+  @objc(setPaymentAgeIndicator:) public func setPaymentAgeIndicator(paymentAgeIndicator: Swift.String)
+  @objc(setPaymentAge:) public func setPaymentAge(paymentAge: Swift.String)
+  @objc(setSuspiciousActivity:) public func setSuspiciousActivity(suspiciousActivity: Swift.String)
+  @objc(setAuthMethod:) public func setAuthMethod(authMethod: Swift.String)
+  @objc(setAuthTime:) public func setAuthTime(authTime: Swift.String)
+  @objc(setAuthData:) public func setAuthData(authData: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ThreeDSecureShippingInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(type: Swift.String? = nil, deliveryTime: Swift.String? = nil, deliveryEmail: Swift.String? = nil, addressUsageIndicator: Swift.String? = nil, addressUsage: Swift.String? = nil, city: Swift.String? = nil, country: Swift.String? = nil, address: Swift.String? = nil, postal: Swift.String? = nil, regionCode: Swift.String? = nil, nameIndicator: Swift.String? = nil)
+  public var type: Swift.String?
+  public var deliveryTime: Swift.String?
+  public var deliveryEmail: Swift.String?
+  public var addressUsageIndicator: Swift.String?
+  public var addressUsage: Swift.String?
+  public var city: Swift.String?
+  public var country: Swift.String?
+  public var address: Swift.String?
+  public var postal: Swift.String?
+  public var regionCode: Swift.String?
+  public var nameIndicator: Swift.String?
+  @objc(setType:) public func setType(type: Swift.String)
+  @objc(setDeliveryTime:) public func setDeliveryTime(deliveryTime: Swift.String)
+  @objc(setDeliveryEmail:) public func setDeliveryEmail(deliveryEmail: Swift.String)
+  @objc(setAddressUsageIndicator:) public func setAddressUsageIndicator(addressUsageIndicator: Swift.String)
+  @objc(setAddressUsage:) public func setAddressUsage(addressUsage: Swift.String)
+  @objc(setCity:) public func setCity(city: Swift.String)
+  @objc(setCountry:) public func setCountry(country: Swift.String)
+  @objc(setAddress:) public func setAddress(address: Swift.String)
+  @objc(setPostal:) public func setPostal(postal: Swift.String)
+  @objc(setRegionCode:) public func setRegionCode(regionCode: Swift.String)
+  @objc(setNameIndicator:) public func setNameIndicator(nameIndicator: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ThreeDSecureMpiResultInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(acsOperationId: Swift.String? = nil, authenticationFlow: Swift.String? = nil, authenticationTimestamp: Swift.String? = nil)
+  public var acsOperationId: Swift.String?
+  public var authenticationFlow: Swift.String?
+  public var authenticationTimestamp: Swift.String?
+  @objc(setAcsOperationId:) public func setAcsOperationId(acsOperationId: Swift.String)
+  @objc(setAuthenticationFlow:) public func setAuthenticationFlow(authenticationFlow: Swift.String)
+  @objc(setAuthenticationTimestamp:) public func setAuthenticationTimestamp(authenticationTimestamp: Swift.String)
+  @objc deinit
+}
+@objc public class AdditionalField : ObjectiveC.NSObject {
+  public var type: flashpaySDK.AdditionalFieldType
+  @objc public var value: Swift.String
+  @objc(initWithType:value:) public init(type: flashpaySDK.AdditionalFieldType, value: Swift.String)
+  @objc(initWithCustomName:value:) public init(customName: Swift.String, value: Swift.String)
+  @objc deinit
+}
+@objc public enum AdditionalFieldType : Swift.Int, Swift.CaseIterable, Swift.CustomStringConvertible {
+  @objc(customer_first_name) case customer_first_name
+  @objc(customer_middle_name) case customer_middle_name
+  @objc(customer_last_name) case customer_last_name
+  @objc(customer_phone) case customer_phone
+  @objc(customer_email) case customer_email
+  @objc(customer_country) case customer_country
+  @objc(customer_state) case customer_state
+  @objc(customer_city) case customer_city
+  @objc(customer_address) case customer_address
+  @objc(customer_zip) case customer_zip
+  @objc(customer_day_of_birth) case customer_day_of_birth
+  @objc(customer_birthplace) case customer_birthplace
+  @objc(customer_ssn) case customer_ssn
+  @objc(customer_domain) case customer_domain
+  @objc(customer_mir) case customer_mir
+  @objc(customer_account_id) case customer_account_id
+  @objc(customer_language) case customer_language
+  @objc(customer_screen_res) case customer_screen_res
+  @objc(customer_save) case customer_save
+  @objc(billing_postal) case billing_postal
+  @objc(billing_country) case billing_country
+  @objc(billing_region) case billing_region
+  @objc(billing_city) case billing_city
+  @objc(billing_address) case billing_address
+  @objc(identify_doc_number) case identify_doc_number
+  @objc(identify_doc_type) case identify_doc_type
+  @objc(identify_doc_issue_date) case identify_doc_issue_date
+  @objc(identify_doc_issue_by) case identify_doc_issue_by
+  @objc(custom) case custom
+  @objc(doku_customer_first_name) case doku_customer_first_name
+  @objc(doku_customer_email) case doku_customer_email
+  @objc(neteller_account_number) case neteller_account_number
+  @objc(qiwi_account_number) case qiwi_account_number
+  @objc(webmoney_classic_account_number) case webmoney_classic_account_number
+  @objc(webmoney_classic_account_type) case webmoney_classic_account_type
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [flashpaySDK.AdditionalFieldType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [flashpaySDK.AdditionalFieldType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class RecurrentInfoSchedule : ObjectiveC.NSObject {
+  @objc final public let date: Swift.String
+  @objc final public let amount: Swift.Int
+  @objc public init(date: Swift.String, amount: Swift.Int)
+  @objc deinit
+}
+@objc public class RecurrentInfo : ObjectiveC.NSObject, Swift.Codable {
+  public init(register: Swift.Bool, type: flashpaySDK.RecurrentType?, expiryDay: Swift.String?, expiryMonth: Swift.String?, expiryYear: Swift.String?, period: flashpaySDK.RecurrentPeriod?, interval: Swift.Int?, time: Swift.String?, startDate: Swift.String?, scheduledPaymentID: Swift.String?, amount: Swift.Int? = nil, schedule: [flashpaySDK.RecurrentInfoSchedule]? = nil)
+  final public let register: Swift.Bool
+  final public let type: flashpaySDK.RecurrentType?
+  final public let expiryDay: Swift.String?
+  final public let expiryMonth: Swift.String?
+  final public let expiryYear: Swift.String?
+  final public let period: flashpaySDK.RecurrentPeriod?
+  public var interval: Swift.Int?
+  final public let time: Swift.String?
+  final public let startDate: Swift.String?
+  final public let scheduledPaymentID: Swift.String?
+  public var amount: Swift.Int?
+  public var schedule: [flashpaySDK.RecurrentInfoSchedule]?
+  @objc(initWithRecurrentType:register:expiryDay:expiryMonth:expiryYear:period:interval:time:startDate:scheduledPaymentID:) public init(register: Swift.Bool, type: flashpaySDK.RecurrentType, expiryDay: Swift.String, expiryMonth: Swift.String, expiryYear: Swift.String, period: flashpaySDK.RecurrentPeriod, interval: Swift.Int, time: Swift.String, startDate: Swift.String, scheduledPaymentID: Swift.String)
+  @objc(initWithRecurrentType:) public init(type: flashpaySDK.RecurrentType)
+  @objc(setAmount:) public func setAmount(amount: Swift.Int)
+  @objc(setSchedule:) public func setSchedule(schedule: [flashpaySDK.RecurrentInfoSchedule])
+  @objc(dictionaryRepresentation) public func dictionaryRepresentation() -> [Swift.String : Any]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public enum RecurrentType : Swift.Int, Swift.RawRepresentable, Swift.Codable {
+  case Regular
+  case OneClick
+  case Autopayment
+  public typealias RawValue = Swift.String
+  public var rawValue: flashpaySDK.RecurrentType.RawValue {
+    get
+  }
+  public init?(rawValue: flashpaySDK.RecurrentType.RawValue)
+}
+@objc public enum RecurrentPeriod : Swift.Int, Swift.RawRepresentable, Swift.Codable {
+  case Day
+  case Week
+  case Month
+  case Quarter
+  case Year
+  public typealias RawValue = Swift.String?
+  public var rawValue: flashpaySDK.RecurrentPeriod.RawValue {
+    get
+  }
+  public init?(rawValue: flashpaySDK.RecurrentPeriod.RawValue)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc public enum MockModeType : Swift.Int {
+  case disabled
+  case success
+  case decline
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class PaymentOptions : ObjectiveC.NSObject {
+  @objc(PaymentOptionsForApplePay) public class ApplePayOptions : ObjectiveC.NSObject {
+    @objc public init(applePayMerchantID: Swift.String?, applePayDescription: Swift.String?, countryCode: Swift.String?)
+    @objc public init(paymentRequest: PassKit.PKPaymentRequest?)
+    @objc public init(applePayMerchantID: Swift.String?, applePayDescription: Swift.String?, countryCode: Swift.String?, paymentRequest: PassKit.PKPaymentRequest?)
+    @objc deinit
+  }
+  @objc public var applePayOptions: flashpaySDK.PaymentOptions.ApplePayOptions?
+  @objc public var logoImage: UIKit.UIImage?
+  @objc public var brandColor: UIKit.UIColor?
+  @objc public var isDarkThemeOn: Swift.Bool
+  @objc public var mockModeType: flashpaySDK.MockModeType
+  @objc public enum ActionType : Swift.Int {
+    case Sale = 1
+    case Auth = 2
+    case Tokenize = 3
+    case Verify = 4
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public var action: flashpaySDK.PaymentOptions.ActionType
+  @objc public var recurrentInfo: flashpaySDK.RecurrentInfo?
+  @objc public var additionalFields: [flashpaySDK.AdditionalField]?
+  @objc public var receiptData: Swift.String?
+  @objc public var recipientInfo: flashpaySDK.RecipientInfo?
+  @objc public var hideSavedWallets: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public var hideScanningCards: Swift.Bool
+  @objc public var languageCode: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public func setThreeDSecureInfo(_ threeDSecureInfo: flashpaySDK.ThreeDSecureInfo?)
+  public var screenDisplayModes: Swift.Set<flashpaySDK.ScreenDisplayMode>
+  @objc public func addScreenDisplayMode(_ mode: flashpaySDK.ScreenDisplayMode)
+  @objc(initWithProjectID:paymentID:paymentAmount:paymentCurrency:paymentDescription:customerID:regionCode:token:) public init(projectID: Swift.Int32, paymentID: Swift.String, paymentAmount: Swift.Int64, paymentCurrency: Swift.String, paymentDescription: Swift.String?, customerID: Swift.String?, regionCode: Swift.String?, token: Swift.String? = nil)
+  @objc(initWithProjectID:paymentID:paymentAmount:paymentCurrency:) public init(projectID: Swift.Int32, paymentID: Swift.String, paymentAmount: Swift.Int64, paymentCurrency: Swift.String)
+  @objc public var signature: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var forcePaymentMethod: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var paramsForSignature: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class Payment : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var status: Swift.String?
+  @objc public var type: Swift.String?
+  @objc public var id: Swift.String?
+  @objc public var date: Swift.String?
+  @objc public var method: Swift.String?
+  @objc public var sum: Swift.Int64
+  @objc public var currency: Swift.String?
+  @objc public var token: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public typealias PaymentCompletion = (_ result: flashpaySDK.PaymentResult) -> Swift.Void
+@objc @_inheritsConvenienceInitializers public class FlashpaySDK : ObjectiveC.NSObject {
+  @objc public static let kSDKInitErrorCodeKey: Swift.String
+  @objc public static let buildNumber: Swift.String
+  @objc public static let sdkVersion: Swift.String
+  @objc public static let coreVerion: Swift.String
+  @objc(initWithApi:socket:) public init(apiUrlString: Swift.String, socketUrlString: Swift.String)
+  @objc(init) override dynamic public init()
+  @objc(presentPaymentAt:paymentOptions:completionHandler:) public func presentPayment(at viewController: UIKit.UIViewController, paymentOptions: flashpaySDK.PaymentOptions, completion: ((_ result: flashpaySDK.PaymentResult) -> Swift.Void)?)
+  public func getPaymentView(with paymentOptions: flashpaySDK.PaymentOptions, completion: ((_ result: flashpaySDK.PaymentResult) -> Swift.Void)?) -> some SwiftUI.View
+  
+  @objc deinit
+}
+extension flashpaySDK.ScreenDisplayMode : Swift.Equatable {}
+extension flashpaySDK.ScreenDisplayMode : Swift.Hashable {}
+extension flashpaySDK.ScreenDisplayMode : Swift.RawRepresentable {}
+extension flashpaySDK.PaymentStatus : Swift.Equatable {}
+extension flashpaySDK.PaymentStatus : Swift.Hashable {}
+extension flashpaySDK.PaymentStatus : Swift.RawRepresentable {}
+extension flashpaySDK.PaymentErrorCode : Swift.Equatable {}
+extension flashpaySDK.PaymentErrorCode : Swift.Hashable {}
+extension flashpaySDK.PaymentErrorCode : Swift.RawRepresentable {}
+extension flashpaySDK.AdditionalFieldType : Swift.Equatable {}
+extension flashpaySDK.AdditionalFieldType : Swift.Hashable {}
+extension flashpaySDK.AdditionalFieldType : Swift.RawRepresentable {}
+extension flashpaySDK.RecurrentType : Swift.Equatable {}
+extension flashpaySDK.RecurrentType : Swift.Hashable {}
+extension flashpaySDK.RecurrentPeriod : Swift.Equatable {}
+extension flashpaySDK.RecurrentPeriod : Swift.Hashable {}
+extension flashpaySDK.MockModeType : Swift.Equatable {}
+extension flashpaySDK.MockModeType : Swift.Hashable {}
+extension flashpaySDK.MockModeType : Swift.RawRepresentable {}
+extension flashpaySDK.PaymentOptions.ActionType : Swift.Equatable {}
+extension flashpaySDK.PaymentOptions.ActionType : Swift.Hashable {}
+extension flashpaySDK.PaymentOptions.ActionType : Swift.RawRepresentable {}

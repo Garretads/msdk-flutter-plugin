@@ -16,8 +16,10 @@ class MethodChannelEcmpPlugin extends EcmpPluginPlatform {
 
   @override
   Future<EcmpPluginResult?> sdkRun(EcmpPaymentOptions options) async {
+    print("sdkRun");
     final responseJson =
         await methodChannel.invokeMethod<String>('sdkRun', jsonEncode(options));
+    print(responseJson);
     return responseJson != null
         ? EcmpPluginResult.fromJson(jsonDecode(responseJson))
         : null;

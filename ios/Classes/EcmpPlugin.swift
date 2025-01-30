@@ -68,7 +68,6 @@ public class EcmpPlugin: NSObject, FlutterPlugin {
         paymentOptions.hideSavedWallets = pluginPaymentOptions.paymentInfo.hideSavedWallets ?? false
         paymentOptions.isDarkThemeOn = pluginPaymentOptions.isDarkTheme ?? false
         paymentOptions.brandColor = pluginPaymentOptions.brandColor != nil ? UIColor(hex: pluginPaymentOptions.brandColor!) : nil
-        paymentOptions.storedCardType = pluginPaymentOptions.storedCardType != nil ? NSNumber(value: pluginPaymentOptions.storedCardType!) : nil
         
         
         if let recurrentData  = pluginPaymentOptions.recurrentData {

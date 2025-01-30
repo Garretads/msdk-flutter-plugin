@@ -1,0 +1,11 @@
+framework module flashpaySDK {
+  umbrella header "FlashpaySDK.h"
+  export *
+
+  module * { export * }
+}
+
+module flashpaySDK.Swift {
+  header "flashpaySDK-Swift.h"
+  requires objc
+}
