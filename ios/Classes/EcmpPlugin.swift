@@ -4,7 +4,7 @@ import flashpaySDK
 
 public class EcmpPlugin: NSObject, FlutterPlugin {
     
-    private let ecompaySDK = FlashpaySDK()
+    private let flashpaySDK = FlashpaySDK()
     
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "ecmpplugin", binaryMessenger: registrar.messenger())
@@ -68,6 +68,7 @@ public class EcmpPlugin: NSObject, FlutterPlugin {
         paymentOptions.hideSavedWallets = pluginPaymentOptions.paymentInfo.hideSavedWallets ?? false
         paymentOptions.isDarkThemeOn = pluginPaymentOptions.isDarkTheme ?? false
         paymentOptions.brandColor = pluginPaymentOptions.brandColor != nil ? UIColor(hex: pluginPaymentOptions.brandColor!) : nil
+        paymentOptions.storedCardType = pluginPaymentOptions.storedCardType != nil ? NSNumber(value: pluginPaymentOptions.storedCardType!) : nil
         
         
         if let recurrentData  = pluginPaymentOptions.recurrentData {
@@ -110,8 +111,8 @@ public class EcmpPlugin: NSObject, FlutterPlugin {
                 address: recipientInfo.address
             )
         }
-        
-        ecompaySDK.presentPayment(at: controller, paymentOptions: paymentOptions) { sdkResult in
+
+        flashpaySDK.presentPayment(at: controller, paymentOptions: paymentOptions) { sdkResult in
             
             let pluginResult = PluginResult(
                 resultCode: sdkResult.status.rawValue,

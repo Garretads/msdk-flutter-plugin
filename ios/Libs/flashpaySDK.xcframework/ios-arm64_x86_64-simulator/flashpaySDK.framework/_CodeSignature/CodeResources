@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ay8M+5bqmWVyH8dZ6ioL2V1Nx2I=
+		ttjaEBgvLe0x+5AgiOGRYfSY66M=
 		</data>
 		<key>Headers/FlashpaySDK.h</key>
 		<data>
@@ -14,114 +14,56 @@
 		</data>
 		<key>Headers/flashpaySDK-Swift.h</key>
 		<data>
-		XV/FD4sK+pqIBTw/yhF6X8Hc6dk=
+		Q/nH3PKuJxQRtA1TqRv8v+noGYg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		a83/miDrX5scnlHdk4P+QYmhDZg=
+		dDJlRtcaQw1cFfJULfXIaeSLiqM=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1O8aYzQFaWRLpZ5V/ToO/nfgCY0=
+		VjR1ko2zYO1aCZHczGXpqZu/6Oo=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		e0Hy6poO5VwXJeMbH9XaT8tQTUA=
+		Db0W3xjgl3NgwihlK+01yDy4ITw=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2VxmE2xtpxu4c0W9sSmgrRUJb7s=
+		OPmJhiHGmMEnI7gtuf5oLb/i4+c=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		e0Hy6poO5VwXJeMbH9XaT8tQTUA=
+		Db0W3xjgl3NgwihlK+01yDy4ITw=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pRtjjKgP6tQFo5whbGkghSBt0e4=
+		moZX1gkaOAa24RA26wepNtC5MdU=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1O8aYzQFaWRLpZ5V/ToO/nfgCY0=
+		VjR1ko2zYO1aCZHczGXpqZu/6Oo=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pImH3bIRtIF1Gj8jGfa4vNVRn0s=
+		l208HgrcvtV5f+56WWJo6EauvMM=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jb2HVP28YueLyYmV7JRDxMsjCCk=
+		PPMAdtiwC3XpIbu4V7EDWr/GSP4=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pImH3bIRtIF1Gj8jGfa4vNVRn0s=
+		l208HgrcvtV5f+56WWJo6EauvMM=
 		</data>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0SwwsNkwNtqxeutdgd7CHsWGayM=
+		30qCe98WT13c6X0Z0CMJaiP+Fxs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		y1TnkiKqRZYlnhVagwhhZb7ehm4=
 		</data>
-		<key>Overrides.strings</key>
-		<data>
-		KIm6ym+rzMizUIXOjLaK3+LD1SU=
-		</data>
-		<key>de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TgM/8apigm107UiMmk+OuadDzMQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sV2VfyHRv5vMQxdNkv8kNnm8fJw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KREAGhUm++0E9JNg/IPZczJhtiY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1BJoZArxa5mKEFbdOPPCgGat1t8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>hu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bjuUUpWqDj69tWU4IQfvrAFY8fQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>it.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4/I6BVDq28RAfCJyQsamDrXoyCU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -129,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3MRbQfO6btoxPMCbaZNRwtT2boKj9huXpPjIiS2FMIE=
+			aF8+Tq5ECSz3s+Ck7TU0y6dY6ljRFYfbHHHd1tjsWOo=
 			</data>
 		</dict>
 		<key>Headers/FlashpaySDK.h</key>
@@ -143,77 +85,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RlzaSemMOt5xv6KRtOA+QfJacT8ThhWmc/3iGdKwxTk=
+			Ecl4fufNK9Hqsk+zXcRh3ZYGg69okTajPxkjbR5xtf0=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VjBT4TpjTjpSyJcGJQhKOe3g7HOvDSJTuywbPJvw0DQ=
+			PFcQI8/Y2jLBl/Aw0H6ArUeWhY0FPSPiskhHvq8loBE=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YM3HKTNh/qFbsTBLtwVHyibxLnNEq0HQ/Wby8HJKUBo=
+			IycoDhmm0irWpXG3rTQjD0uNLMH4j5O6UEmq1+4xJ9c=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hqkmll4QmXfWaVhFQHQC0yGW8vWQKofsI9TWd92laKA=
+			JaKIqUa0cLRcb7BSfLMqyATrb8EE/Jgg90GsCe0t57Q=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YM3HKTNh/qFbsTBLtwVHyibxLnNEq0HQ/Wby8HJKUBo=
+			IycoDhmm0irWpXG3rTQjD0uNLMH4j5O6UEmq1+4xJ9c=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ux0RtrpJniWVbqifB0WxWfceVcQLr0fO0C2GB0TeUlQ=
+			j/g3dsd4hzPBOuqWHbDobPVfUPw4opoK0wQTVeM7tFA=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VjBT4TpjTjpSyJcGJQhKOe3g7HOvDSJTuywbPJvw0DQ=
+			PFcQI8/Y2jLBl/Aw0H6ArUeWhY0FPSPiskhHvq8loBE=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHlK2t3m74Hv5ebYel5ahIixv2kXEvzt+UhUhvvCrqA=
+			rr5kJdHhFb4xIOuXhsEF4g5+uUJoidVKuRfE1OmjeaA=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bf0pLAG2cMY8Fa0dZIr8Mwm6eu4a2riSqdwV7cIkgdE=
+			+lF0XUeBLPf8rfLsdh4gwBXrcWUhf+CK76vLsCX2aAo=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHlK2t3m74Hv5ebYel5ahIixv2kXEvzt+UhUhvvCrqA=
+			rr5kJdHhFb4xIOuXhsEF4g5+uUJoidVKuRfE1OmjeaA=
 			</data>
 		</dict>
 		<key>Modules/flashpaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YdpzyUSAI9fwhr68ckxnbtuwl/1XPNGcgKANjq5Snso=
+			nHWLpKf427NeoIt44ISV0zaU15L2gMlKt++bRBH/0ng=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -222,67 +164,6 @@
 			<data>
 			+aFZ4nP81sGaDcbiOOtm6xkHNwNL1lnMqV2+ocqbsAc=
 			</data>
-		</dict>
-		<key>Overrides.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WKhWrlaTuneve6x/jaEMCxMcmhcrq/N+iG0H6sb2NIw=
-			</data>
-		</dict>
-		<key>de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1ribKr0JKftgwLWABvaE0bUZk9NhYwr4ee3DlGPrML8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TIVLVs5c8nw2g+rzWasmEYnWtI9cppRKADrirmtzdZg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5MJSVQqgw3VMo851sYPVcDJxFjCI3zHDEeR/EKxUaEE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zzf33Kc15zQfFi5Lc7Axqy0UbfidL67wi+cUkTMeBzQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>hu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8QveDeY+OHeyIuhXJRr+YaYS6IKaUJfxwaEDj5g4yO8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>it.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kHuDkDln8klC9IGv0FerPx68QEbUHDmiWNZ08xC8hX8=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
