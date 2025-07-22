@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "flashpaySDK",
+    "printedName": "flashpaySDK",
     "children": [
       {
         "kind": "Import",
@@ -1335,6 +1335,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1584,6 +1598,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1903,6 +1931,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2206,6 +2248,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2420,6 +2476,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3340,6 +3410,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3816,6 +3900,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4854,6 +4952,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5429,6 +5541,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6618,6 +6744,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9339,6 +9479,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11140,6 +11294,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11717,6 +11885,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11768,12 +11950,288 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "flashpaySDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppConfig",
+        "printedName": "AppConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiHost",
+            "printedName": "apiHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11flashpaySDK9AppConfigV7apiHostSSvpZ",
+            "mangledName": "$s11flashpaySDK9AppConfigV7apiHostSSvpZ",
+            "moduleName": "flashpaySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK9AppConfigV7apiHostSSvgZ",
+                "mangledName": "$s11flashpaySDK9AppConfigV7apiHostSSvgZ",
+                "moduleName": "flashpaySDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "socketHost",
+            "printedName": "socketHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11flashpaySDK9AppConfigV10socketHostSSvpZ",
+            "mangledName": "$s11flashpaySDK9AppConfigV10socketHostSSvpZ",
+            "moduleName": "flashpaySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK9AppConfigV10socketHostSSvgZ",
+                "mangledName": "$s11flashpaySDK9AppConfigV10socketHostSSvgZ",
+                "moduleName": "flashpaySDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11flashpaySDK9AppConfigV",
+        "mangledName": "$s11flashpaySDK9AppConfigV",
+        "moduleName": "flashpaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flashpaySDK",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Config",
+        "printedName": "Config",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "flashpaySDK.AppConfig.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppConfig",
+                    "printedName": "flashpaySDK.AppConfig",
+                    "usr": "s:11flashpaySDK9AppConfigV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11flashpaySDK6ConfigV3appAA03AppC0VmvpZ",
+            "mangledName": "$s11flashpaySDK6ConfigV3appAA03AppC0VmvpZ",
+            "moduleName": "flashpaySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flashpaySDK.AppConfig.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppConfig",
+                        "printedName": "flashpaySDK.AppConfig",
+                        "usr": "s:11flashpaySDK9AppConfigV"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK6ConfigV3appAA03AppC0VmvgZ",
+                "mangledName": "$s11flashpaySDK6ConfigV3appAA03AppC0VmvgZ",
+                "moduleName": "flashpaySDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "validateAll",
+            "printedName": "validateAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11flashpaySDK6ConfigV11validateAllSbyFZ",
+            "mangledName": "$s11flashpaySDK6ConfigV11validateAllSbyFZ",
+            "moduleName": "flashpaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printDebugInfo",
+            "printedName": "printDebugInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11flashpaySDK6ConfigV14printDebugInfoyyFZ",
+            "mangledName": "$s11flashpaySDK6ConfigV14printDebugInfoyyFZ",
+            "moduleName": "flashpaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11flashpaySDK6ConfigV",
+        "mangledName": "$s11flashpaySDK6ConfigV",
+        "moduleName": "flashpaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -12139,6 +12597,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13817,6 +14289,9 @@
             "moduleName": "flashpaySDK",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -13859,6 +14334,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14134,6 +14623,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15640,6 +16143,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15904,6 +16421,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16330,6 +16861,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -16689,6 +17234,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -16962,6 +17521,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -17122,6 +17695,241 @@
                 "declKind": "Accessor",
                 "usr": "s:11flashpaySDK14PaymentOptionsC08applePayD0AC05ApplefD0CSgvM",
                 "mangledName": "$s11flashpaySDK14PaymentOptionsC08applePayD0AC05ApplefD0CSgvM",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storedCardType",
+            "printedName": "storedCardType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(py)storedCardType",
+            "mangledName": "$s11flashpaySDK14PaymentOptionsC14storedCardTypeSo8NSNumberCSgvp",
+            "moduleName": "flashpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)storedCardType",
+                "mangledName": "$s11flashpaySDK14PaymentOptionsC14storedCardTypeSo8NSNumberCSgvg",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)setStoredCardType:",
+                "mangledName": "$s11flashpaySDK14PaymentOptionsC14storedCardTypeSo8NSNumberCSgvs",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK14PaymentOptionsC14storedCardTypeSo8NSNumberCSgvM",
+                "mangledName": "$s11flashpaySDK14PaymentOptionsC14storedCardTypeSo8NSNumberCSgvM",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "footerImage",
+            "printedName": "footerImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(py)footerImage",
+            "mangledName": "$s11flashpaySDK14PaymentOptionsC11footerImageSo7UIImageCSgvp",
+            "moduleName": "flashpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)footerImage",
+                "mangledName": "$s11flashpaySDK14PaymentOptionsC11footerImageSo7UIImageCSgvg",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)setFooterImage:",
+                "mangledName": "$s11flashpaySDK14PaymentOptionsC11footerImageSo7UIImageCSgvs",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK14PaymentOptionsC11footerImageSo7UIImageCSgvM",
+                "mangledName": "$s11flashpaySDK14PaymentOptionsC11footerImageSo7UIImageCSgvM",
                 "moduleName": "flashpaySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -17805,6 +18613,20 @@
             ],
             "enumRawTypeName": "Int",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -18905,7 +19727,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(projectID:paymentID:paymentAmount:paymentCurrency:paymentDescription:customerID:regionCode:token:)",
+            "printedName": "init(projectID:paymentID:paymentAmount:paymentCurrency:paymentDescription:customerID:regionCode:token:storedCardType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -18993,13 +19815,28 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)initWithProjectID:paymentID:paymentAmount:paymentCurrency:paymentDescription:customerID:regionCode:token:",
-            "mangledName": "$s11flashpaySDK14PaymentOptionsC9projectID07paymentF00G6Amount0G8Currency0G11Description08customerF010regionCode5tokenACs5Int32V_SSs5Int64VS2SSgA3Ptcfc",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)initWithProjectID:paymentID:paymentAmount:paymentCurrency:paymentDescription:customerID:regionCode:token:storedCardType:",
+            "mangledName": "$s11flashpaySDK14PaymentOptionsC9projectID07paymentF00G6Amount0G8Currency0G11Description08customerF010regionCode5token14storedCardTypeACs5Int32V_SSs5Int64VS2SSgA3QSo8NSNumberCSgtcfc",
             "moduleName": "flashpaySDK",
-            "objc_name": "initWithProjectID:paymentID:paymentAmount:paymentCurrency:paymentDescription:customerID:regionCode:token:",
+            "objc_name": "initWithProjectID:paymentID:paymentAmount:paymentCurrency:paymentDescription:customerID:regionCode:token:storedCardType:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -19010,7 +19847,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(projectID:paymentID:paymentAmount:paymentCurrency:)",
+            "printedName": "init(projectID:paymentID:paymentAmount:paymentCurrency:storedCardType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19041,13 +19878,28 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)initWithProjectID:paymentID:paymentAmount:paymentCurrency:",
-            "mangledName": "$s11flashpaySDK14PaymentOptionsC9projectID07paymentF00G6Amount0G8CurrencyACs5Int32V_SSs5Int64VSStcfc",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentOptions(im)initWithProjectID:paymentID:paymentAmount:paymentCurrency:storedCardType:",
+            "mangledName": "$s11flashpaySDK14PaymentOptionsC9projectID07paymentF00G6Amount0G8Currency14storedCardTypeACs5Int32V_SSs5Int64VSSSo8NSNumberCSgtcfc",
             "moduleName": "flashpaySDK",
-            "objc_name": "initWithProjectID:paymentID:paymentAmount:paymentCurrency:",
+            "objc_name": "initWithProjectID:paymentID:paymentAmount:paymentCurrency:storedCardType:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -19365,6 +20217,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -19412,16 +20278,6 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "flashpaySDK",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -20408,6 +21264,123 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "account",
+            "printedName": "account",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flashpaySDK.PaymentAccount?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentAccount",
+                    "printedName": "flashpaySDK.PaymentAccount",
+                    "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)Payment(py)account",
+            "mangledName": "$s11flashpaySDK7PaymentC7accountAA0C7AccountCSgvp",
+            "moduleName": "flashpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "flashpaySDK.PaymentAccount?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentAccount",
+                        "printedName": "flashpaySDK.PaymentAccount",
+                        "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)Payment(im)account",
+                "mangledName": "$s11flashpaySDK7PaymentC7accountAA0C7AccountCSgvg",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "flashpaySDK.PaymentAccount?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentAccount",
+                        "printedName": "flashpaySDK.PaymentAccount",
+                        "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)Payment(im)setAccount:",
+                "mangledName": "$s11flashpaySDK7PaymentC7accountAA0C7AccountCSgvs",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK7PaymentC7accountAA0C7AccountCSgvM",
+                "mangledName": "$s11flashpaySDK7PaymentC7accountAA0C7AccountCSgvM",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -20516,6 +21489,551 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentAccount",
+        "printedName": "PaymentAccount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(py)number",
+            "mangledName": "$s11flashpaySDK14PaymentAccountC6numberSSSgvp",
+            "moduleName": "flashpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(im)number",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC6numberSSSgvg",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(im)setNumber:",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC6numberSSSgvs",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK14PaymentAccountC6numberSSSgvM",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC6numberSSSgvM",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(py)type",
+            "mangledName": "$s11flashpaySDK14PaymentAccountC4typeSSSgvp",
+            "moduleName": "flashpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(im)type",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC4typeSSSgvg",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(im)setType:",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC4typeSSSgvs",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK14PaymentAccountC4typeSSSgvM",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC4typeSSSgvM",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardHolder",
+            "printedName": "cardHolder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(py)cardHolder",
+            "mangledName": "$s11flashpaySDK14PaymentAccountC10cardHolderSSSgvp",
+            "moduleName": "flashpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(im)cardHolder",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC10cardHolderSSSgvg",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(im)setCardHolder:",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC10cardHolderSSSgvs",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11flashpaySDK14PaymentAccountC10cardHolderSSSgvM",
+                "mangledName": "$s11flashpaySDK14PaymentAccountC10cardHolderSSSgvM",
+                "moduleName": "flashpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentAccount",
+                "printedName": "flashpaySDK.PaymentAccount",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount(im)init",
+            "mangledName": "$s11flashpaySDK14PaymentAccountCACycfc",
+            "moduleName": "flashpaySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentAccount",
+                "printedName": "flashpaySDK.PaymentAccount",
+                "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11flashpaySDK14PaymentAccountC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11flashpaySDK14PaymentAccountC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "flashpaySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11flashpaySDK14PaymentAccountC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11flashpaySDK14PaymentAccountC6encode2toys7Encoder_p_tKF",
+            "moduleName": "flashpaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flashpaySDK@objc(cs)PaymentAccount",
+        "mangledName": "$s11flashpaySDK14PaymentAccountC",
+        "moduleName": "flashpaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -20903,22 +22421,10 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(apiUrlString:socketUrlString:)",
+            "kind": "Var",
+            "name": "apiHost",
+            "printedName": "apiHost",
             "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FlashpaySDK",
-                "printedName": "flashpaySDK.FlashpaySDK",
-                "usr": "c:@M@flashpaySDK@objc(cs)FlashpaySDK"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
               {
                 "kind": "TypeNominal",
                 "name": "String",
@@ -20926,17 +22432,89 @@
                 "usr": "s:SS"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@flashpaySDK@objc(cs)FlashpaySDK(im)initWithApi:socket:",
-            "mangledName": "$s11flashpaySDK08FlashpayB0C12apiUrlString06socketeF0ACSS_SStcfc",
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)FlashpaySDK(cpy)apiHost",
+            "mangledName": "$s11flashpaySDK08FlashpayB0C7apiHostSSvpZ",
             "moduleName": "flashpaySDK",
-            "objc_name": "initWithApi:socket:",
+            "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
-            "init_kind": "Designated"
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)FlashpaySDK(cm)apiHost",
+                "mangledName": "$s11flashpaySDK08FlashpayB0C7apiHostSSvgZ",
+                "moduleName": "flashpaySDK",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "socketHost",
+            "printedName": "socketHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@flashpaySDK@objc(cs)FlashpaySDK(cpy)socketHost",
+            "mangledName": "$s11flashpaySDK08FlashpayB0C10socketHostSSvpZ",
+            "moduleName": "flashpaySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@flashpaySDK@objc(cs)FlashpaySDK(cm)socketHost",
+                "mangledName": "$s11flashpaySDK08FlashpayB0C10socketHostSSvgZ",
+                "moduleName": "flashpaySDK",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Constructor",
@@ -21096,6 +22674,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -21228,1708 +22820,1211 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2198,
       "length": 11,
       "value": "\"wallet_id\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2237,
       "length": 14,
       "value": "\"wallet_owner\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2271,
       "length": 5,
       "value": "\"pan\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2303,
       "length": 13,
       "value": "\"card_holder\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2340,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2375,
       "length": 12,
       "value": "\"state_code\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2408,
       "length": 6,
       "value": "\"city\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
       "kind": "StringLiteral",
       "offset": 2438,
       "length": 9,
       "value": "\"address\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2198,
-      "length": 11,
-      "value": "\"wallet_id\""
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/ScreenDisplayMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2237,
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/ScreenDisplayMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 919,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 944,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 965,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2659,
+      "length": 20,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2689,
       "length": 14,
-      "value": "\"wallet_owner\""
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2713,
+      "length": 25,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2748,
+      "length": 12,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2770,
+      "length": 21,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2801,
+      "length": 14,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2825,
+      "length": 26,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2861,
+      "length": 25,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2896,
+      "length": 19,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2925,
+      "length": 21,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2956,
+      "length": 15,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2981,
+      "length": 20,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3011,
+      "length": 18,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3039,
+      "length": 24,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3073,
+      "length": 21,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3104,
+      "length": 16,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3130,
+      "length": 12,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3152,
+      "length": 7,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Sources\/Generated\/AppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 304,
+      "length": 17,
+      "value": "\"sdk.flashpay.kg\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Sources\/Generated\/AppConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 25,
+      "value": "\"paymentpage.flashpay.kg\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/ContainerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 285,
       "length": 5,
-      "value": "\"pan\""
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2303,
-      "length": 13,
-      "value": "\"card_holder\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2340,
-      "length": 9,
-      "value": "\"country\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2375,
-      "length": 12,
-      "value": "\"state_code\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2408,
-      "length": 6,
-      "value": "\"city\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2438,
-      "length": 9,
-      "value": "\"address\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecipientInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 307,
-      "length": 13,
-      "value": "\"flashpaySDK.RecipientInfo\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/ScreenDisplayMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 261,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/ScreenDisplayMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/ScreenDisplayMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 261,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/ScreenDisplayMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 339,
-      "length": 13,
-      "value": "\"flashpaySDK.PaymentResult\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 898,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 919,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 944,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 965,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 898,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 919,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 944,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 965,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 991,
-      "length": 12,
-      "value": "\"flashpaySDK.PaymentError\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2659,
-      "length": 20,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2689,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2713,
-      "length": 25,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2748,
-      "length": 12,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2770,
-      "length": 21,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2801,
-      "length": 14,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2825,
-      "length": 26,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2861,
-      "length": 25,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2896,
-      "length": 19,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2925,
-      "length": 21,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2956,
-      "length": 15,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2981,
-      "length": 20,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3011,
-      "length": 18,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3039,
-      "length": 24,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3073,
-      "length": 21,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3104,
-      "length": 16,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3130,
-      "length": 12,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3152,
-      "length": 7,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2659,
-      "length": 20,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2689,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2713,
-      "length": 25,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2748,
-      "length": 12,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2770,
-      "length": 21,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2801,
-      "length": 14,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2825,
-      "length": 26,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2861,
-      "length": 25,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2896,
-      "length": 19,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2925,
-      "length": 21,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2956,
-      "length": 15,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2981,
-      "length": 20,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3011,
-      "length": 18,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3039,
-      "length": 24,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3073,
-      "length": 21,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3104,
-      "length": 16,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3130,
-      "length": 12,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/PaymentResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3152,
-      "length": 7,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalField.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalField.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalField.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalField.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalField.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 15,
-      "value": "\"flashpaySDK.AdditionalField\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 365,
       "length": 20,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 489,
       "length": 14,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 603,
       "length": 16,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 662,
       "length": 14,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 719,
       "length": 13,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 775,
       "length": 16,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 834,
       "length": 12,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 889,
       "length": 21,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 953,
       "length": 19,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1015,
       "length": 12,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1070,
       "length": 15,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1128,
       "length": 12,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1183,
       "length": 19,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1245,
       "length": 17,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1305,
       "length": 19,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1367,
       "length": 13,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1424,
       "length": 14,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1481,
       "length": 15,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1539,
       "length": 14,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1596,
       "length": 12,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1651,
       "length": 15,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1710,
       "length": 19,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1772,
       "length": 17,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1832,
       "length": 23,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1898,
       "length": 21,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1963,
       "length": 6,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 2025,
       "length": 24,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 2092,
       "length": 19,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 2171,
       "length": 23,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 2250,
       "length": 19,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 2347,
       "length": 31,
       "value": "33"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 2431,
       "length": 29,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 365,
-      "length": 20,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 428,
-      "length": 18,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 14,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 546,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 603,
-      "length": 16,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 662,
-      "length": 14,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 719,
-      "length": 13,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 775,
-      "length": 16,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 834,
-      "length": 12,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 889,
-      "length": 21,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 953,
-      "length": 19,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1015,
-      "length": 12,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1070,
-      "length": 15,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1128,
-      "length": 12,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1183,
-      "length": 19,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1245,
-      "length": 17,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1305,
-      "length": 19,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1367,
-      "length": 13,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1424,
-      "length": 14,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1481,
-      "length": 15,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1539,
-      "length": 14,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1596,
-      "length": 12,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1651,
-      "length": 15,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1710,
-      "length": 19,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1772,
-      "length": 17,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1832,
-      "length": 23,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1898,
-      "length": 21,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1963,
-      "length": 6,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2025,
-      "length": 24,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2092,
-      "length": 19,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2171,
-      "length": 23,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2250,
-      "length": 19,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2347,
-      "length": 31,
-      "value": "33"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/AdditionalFieldEnums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2431,
-      "length": 29,
-      "value": "34"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 269,
-      "length": 21,
-      "value": "\"flashpaySDK.RecurrentInfoSchedule\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7088,
       "length": 10,
       "value": "\"register\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7119,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7151,
       "length": 12,
       "value": "\"expiry_day\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7191,
       "length": 14,
       "value": "\"expiry_month\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7232,
       "length": 13,
       "value": "\"expiry_year\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7268,
       "length": 8,
       "value": "\"period\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7301,
       "length": 10,
       "value": "\"interval\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7332,
       "length": 6,
       "value": "\"time\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7364,
       "length": 12,
       "value": "\"start_date\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7411,
       "length": 22,
       "value": "\"scheduled_payment_id\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "StringLiteral",
       "offset": 7456,
       "length": 8,
       "value": "\"amount\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7088,
-      "length": 10,
-      "value": "\"register\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7119,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7151,
-      "length": 12,
-      "value": "\"expiry_day\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7191,
-      "length": 14,
-      "value": "\"expiry_month\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7232,
-      "length": 13,
-      "value": "\"expiry_year\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7268,
-      "length": 8,
-      "value": "\"period\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7301,
-      "length": 10,
-      "value": "\"interval\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7332,
-      "length": 6,
-      "value": "\"time\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7364,
-      "length": 12,
-      "value": "\"start_date\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7411,
-      "length": 22,
-      "value": "\"scheduled_payment_id\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 7456,
-      "length": 8,
-      "value": "\"amount\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 624,
-      "length": 13,
-      "value": "\"flashpaySDK.RecurrentInfo\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9156,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9174,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9838,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9852,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9867,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/RecurreInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9884,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 375,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 392,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 375,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 392,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 497,
-      "length": 15,
-      "value": "\"flashpaySDK.ApplePayOptions\""
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3375,
+      "offset": 3500,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "IntegerLiteral",
-      "offset": 3567,
+      "offset": 3692,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "IntegerLiteral",
-      "offset": 3589,
+      "offset": 3714,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "IntegerLiteral",
-      "offset": 3615,
+      "offset": 3740,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "IntegerLiteral",
-      "offset": 3639,
+      "offset": 3764,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3567,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3589,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3615,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3639,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "BooleanLiteral",
-      "offset": 4655,
+      "offset": 4780,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
       "kind": "Array",
-      "offset": 5065,
+      "offset": 5190,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/PaymentOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 14,
-      "value": "\"flashpaySDK.PaymentOptions\""
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10157,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Common\/Payment.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "Array",
+      "offset": 10221,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "Array",
+      "offset": 10298,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 271,
+      "offset": 10514,
       "length": 7,
-      "value": "\"flashpaySDK.Payment\""
+      "value": "\"0.00 \""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Flashpay\/FlashpaySDK.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 10694,
+      "length": 12,
+      "value": "\"dd-MM-yyyy\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 10855,
+      "length": 14,
+      "value": "\"LLLL d, yyyy\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11314,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11362,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11595,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 11793,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11993,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 12640,
+      "length": 12,
+      "value": "\"dd-MM-yyyy\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 12869,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 12882,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 12897,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 12911,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/Internal\/SDKInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 12968,
+      "length": 14,
+      "value": "\"LLLL d, yyyy\""
+    },
+    {
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Flashpay\/FlashpaySDK.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 18,
       "value": "\"SDKInitErrorCode\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Projects\/mSDK\/Ecommpay\/mobile-sdk-ios-ui-flashpay\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Flashpay\/FlashpaySDK.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Flashpay\/FlashpaySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
-      "length": 21,
-      "value": "\"flashpaySDK.WrapperViewController\""
+      "offset": 970,
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Work\/ecomm\/mobile-sdk-ios-ui\/mobileSDK.Facade\/mobileSDK.Facade\/Facade\/PublicApi\/Flashpay\/FlashpaySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 725,
       "length": 8,
       "value": "\"alipay\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 859,
       "length": 10,
       "value": "\"applePay\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 20,
       "value": "\"applePayButtonLogo\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1165,
       "length": 12,
       "value": "\"backButton\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 12,
       "value": "\"bancontact\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1445,
       "length": 10,
       "value": "\"bankCard\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1589,
       "length": 14,
       "value": "\"bankCardDark\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1721,
       "length": 6,
       "value": "\"blik\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1854,
       "length": 11,
       "value": "\"card_amex\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1998,
       "length": 14,
       "value": "\"card_belcard\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2137,
       "length": 10,
       "value": "\"card_cup\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2280,
       "length": 14,
       "value": "\"card_dankort\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2434,
       "length": 18,
       "value": "\"card_diners_club\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2600,
       "length": 22,
       "value": "\"card_diners_clubDark\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2757,
       "length": 15,
       "value": "\"card_discover\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2927,
       "length": 25,
       "value": "\"card_forbrugsforeningen\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3077,
       "length": 10,
       "value": "\"card_jcb\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3220,
       "length": 14,
       "value": "\"card_maestro\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3375,
       "length": 18,
       "value": "\"card_maestroDark\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3532,
       "length": 17,
       "value": "\"card_mastercard\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3674,
       "length": 10,
       "value": "\"card_mir\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3815,
       "length": 13,
       "value": "\"card_switch\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3955,
       "length": 11,
       "value": "\"card_visa\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4101,
       "length": 15,
       "value": "\"card_visaDark\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4240,
       "length": 9,
       "value": "\"chevron\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4381,
       "length": 13,
       "value": "\"closeButton\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4524,
       "length": 12,
       "value": "\"copyButton\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4674,
       "length": 16,
       "value": "\"defaultApsLogo\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4836,
       "length": 20,
       "value": "\"defaultApsLogoDark\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4974,
       "length": 6,
       "value": "\"doku\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5104,
       "length": 9,
       "value": "\"eWallet\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5229,
       "length": 5,
       "value": "\"eps\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5362,
       "length": 11,
       "value": "\"errorLogo\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5509,
       "length": 15,
       "value": "\"errorLogoDark\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5648,
       "length": 9,
       "value": "\"giroPay\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5786,
       "length": 12,
       "value": "\"google Pay\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5918,
       "length": 7,
       "value": "\"iDeal\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6055,
       "length": 12,
       "value": "\"infoButton\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6187,
       "length": 7,
       "value": "\"lines\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6324,
       "length": 12,
       "value": "\"multibanco\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6462,
       "length": 10,
       "value": "\"neteller\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6594,
       "length": 8,
       "value": "\"payPal\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6732,
       "length": 12,
       "value": "\"przelewy24\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6862,
       "length": 6,
       "value": "\"qiwi\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6996,
       "length": 11,
       "value": "\"safetyPay\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7137,
       "length": 12,
       "value": "\"scanButton\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7267,
       "length": 6,
       "value": "\"sepa\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7395,
       "length": 8,
       "value": "\"skrill\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7525,
       "length": 8,
       "value": "\"sofort\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7665,
       "length": 13,
       "value": "\"successLogo\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7818,
       "length": 17,
       "value": "\"successLogoDark\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7961,
       "length": 10,
       "value": "\"unionPay\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8091,
       "length": 7,
       "value": "\"waves\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8220,
       "length": 8,
       "value": "\"weChat\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8354,
       "length": 10,
       "value": "\"webmoney\""
     },
     {
-      "filePath": "\/Users\/a.hrameev\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fychoupvrxaoexgqgluijdeixpmr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/mobileSDK-fhwxwzsllmlobaduvnwvcuwamncd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/flashpaySDK\/IntermediateBuildFilesPath\/mobileSDK.Facade.build\/Release-iphoneos\/flashpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8501,
       "length": 16,
