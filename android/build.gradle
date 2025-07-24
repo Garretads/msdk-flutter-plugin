@@ -69,8 +69,7 @@ android {
 }
 
 dependencies {
-    implementation "kg.flashpay:msdk-ui:3.7.2"
-    implementation "kg.flashpay:msdk-core-android:0.12.3"
+    implementation "kg.flashpay:msdk-ui:3.8.8"
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.1"
 
     coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.1.3"
